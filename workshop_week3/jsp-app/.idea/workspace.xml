@@ -4,7 +4,7 @@
     <list default="true" id="75cc04f8-083a-4529-beea-fd16650a839e" name="Default" comment="" />
     <ignored path="web-container.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,14 +52,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/pom.xml" />
-        <option value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/api/database/DBProperties.java" />
-        <option value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/locationView.jsp" />
-        <option value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/index.jsp" />
-        <option value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/web/HeadersLogFilter.java" />
-        <option value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/file/LogFileWriter.java" />
-        <option value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/web/HttpSessionZTH.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/database/DBProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/locationView.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/web/HeadersLogFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/file/LogFileWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/web/HttpSessionZTH.java" />
       </list>
     </option>
   </component>
@@ -226,7 +226,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -408,7 +408,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -471,7 +471,7 @@
     <option name="totallyTimeSpent" value="12955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="828" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="828" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -520,7 +520,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
@@ -528,15 +528,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/file/LogFileWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/file/LogFileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
@@ -544,7 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/web/HttpSessionZTH.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/web/HttpSessionZTH.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -552,7 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
@@ -560,7 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/web/HeadersLogFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/web/HeadersLogFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
@@ -568,7 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/appl/domain/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -576,7 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
@@ -584,7 +586,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/locationList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/locationList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -612,35 +614,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/api/database/DBProperties.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/database/DBProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/appl/dao/LocationDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/dao/LocationDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/locationView.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/locationView.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5212264">
           <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/locationList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/locationList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.768868">
           <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/appl/domain/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -648,7 +650,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
@@ -656,7 +658,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/web/HeadersLogFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/web/HeadersLogFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
@@ -664,21 +666,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/loginFail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/loginFail.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/web/HttpSessionZTH.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/web/HttpSessionZTH.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
@@ -686,7 +688,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16741072">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
@@ -694,15 +696,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/src/main/java/ro/teamnet/zth/file/LogFileWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/file/LogFileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69866073">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/git/Workshop/workshop week3/jsp-app/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8370536">
           <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
