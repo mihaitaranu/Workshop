@@ -11,4 +11,8 @@ import java.util.List;
 public interface DepartmentService {
     public List<Department> findAllDepartments();
     public Department findOneDepartment(Integer id);
+    public void deleteDepartment(Integer id);
+    public Department updateDepartment(Department department);
+    public Department addDepartment(Department department);
+
 }

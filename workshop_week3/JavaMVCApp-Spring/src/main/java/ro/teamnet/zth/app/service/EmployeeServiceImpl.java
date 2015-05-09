@@ -19,11 +19,16 @@ public class EmployeeServiceImpl implements EmployeeService {
     public Employee findOneEmployee(Integer id) {
         return new EmployeeDao().getEmployeeById(id);
     }
-    public void deleteEmployee(Integer id){
+
+    public void deleteEmployee(Integer id) {
         new EmployeeDao().deleteEmployee(new EmployeeDao().getEmployeeById(id));
     }
-    public Employee addEmployee(Employee employee){
+
+    public Employee addEmployee(Employee employee) {
         return new EmployeeDao().insertEmployee(employee);
     }
-    public Employee updateEmployee(Employee employee){return new EmployeeDao().updateEmployee(employee);}
+
+    public Employee updateEmployee(Employee employee) {
+        return new EmployeeDao().updateEmployee(employee);
+    }
 }

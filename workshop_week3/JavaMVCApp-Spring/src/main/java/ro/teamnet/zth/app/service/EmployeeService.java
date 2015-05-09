@@ -14,4 +14,5 @@ public interface EmployeeService {
     public Employee findOneEmployee(Integer id);
     public void deleteEmployee(Integer id);
     public Employee addEmployee(Employee employee);
+    public Employee updateEmployee(Employee employee);
 }

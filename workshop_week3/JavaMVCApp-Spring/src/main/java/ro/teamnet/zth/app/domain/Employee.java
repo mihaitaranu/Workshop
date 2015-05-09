@@ -28,7 +28,7 @@ public class Employee {
     private Date hireDate;
 
     @Column(name = "JOB_ID")
-    private String jobId;
+    private Integer jobId;
 
     @Column(name = "SALARY")
     private BigDecimal salary;
@@ -90,11 +90,11 @@ public class Employee {
         this.hireDate = hireDate;
     }
 
-    public String getJobId() {
+    public Integer getJobId() {
         return jobId;
     }
 
-    public void setJobId(String jobId) {
+    public void setJobId(Integer jobId) {
         this.jobId = jobId;
     }
 

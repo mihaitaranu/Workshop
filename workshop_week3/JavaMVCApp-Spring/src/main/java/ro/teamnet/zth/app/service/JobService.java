@@ -10,6 +10,12 @@ import java.util.List;
  */
 public interface JobService {
     public List<Job> findAllJobs();
-//    public Job findOneJob(String id);
 
+    public Job findOneJob(Integer id);
+
+    public void deleteJob(Integer id);
+
+    public Job saveJob(Job job);
+
+    public Job updateJob(Job job);
 }

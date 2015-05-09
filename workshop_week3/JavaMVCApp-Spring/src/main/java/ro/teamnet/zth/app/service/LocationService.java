@@ -11,5 +11,11 @@ public interface LocationService {
     public List<Location> findAllLlocations();
 
     public Location findOneLocation(Integer id);
+
+    public void deleteLocation(Integer id);
+
+    public Location addLocation(Location location);
+
+    public Location updateLocation(Location location);
 }
 

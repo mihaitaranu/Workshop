@@ -22,7 +22,7 @@
       <column name="EMAIL" sqlType="VARCHAR" precision="25" scale="0" nullable="false" jdbcType="12"/>
       <column name="PHONE_NUMBER" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
       <column name="HIRE_DATE" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
-      <column name="JOB_ID" sqlType="VARCHAR" precision="25" scale="0" nullable="true" jdbcType="12"/>
+      <column name="JOB_ID" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <column name="SALARY" sqlType="DECIMAL" precision="8" scale="2" nullable="true" jdbcType="3"/>
       <column name="COMMISSION_PCT" sqlType="DECIMAL" precision="2" scale="2" nullable="true" jdbcType="3"/>
       <column name="MANAGER_ID" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
@@ -33,7 +33,7 @@
       <index name="MANAGER_ID" unique="false" columns="MANAGER_ID"/>
     </table>
     <table name="JOBS" schema="" catalog="zth_02" type="TABLE">
-      <column name="JOB_ID" sqlType="VARCHAR" precision="25" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="JOB_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="JOB_TITLE" sqlType="VARCHAR" precision="35" scale="0" nullable="true" jdbcType="12"/>
       <column name="MIN_SALARY" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <column name="MAX_SALARY" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>

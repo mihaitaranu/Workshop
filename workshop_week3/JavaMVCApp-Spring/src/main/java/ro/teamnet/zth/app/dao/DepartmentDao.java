@@ -3,6 +3,7 @@ package ro.teamnet.zth.app.dao;
 import ro.teamnet.zth.api.em.EntityManager;
 import ro.teamnet.zth.api.em.EntityManagerImpl;
 import ro.teamnet.zth.app.domain.Department;
+import ro.teamnet.zth.app.domain.Location;
 
 import java.util.List;
 
@@ -14,7 +15,6 @@ public class DepartmentDao {
     EntityManager entityManager = new EntityManagerImpl();
 
     /**
-     *
      * @param department
      * @return department object
      */
@@ -23,7 +23,6 @@ public class DepartmentDao {
     }
 
     /**
-     *
      * @param department
      * @return department object
      */
@@ -32,7 +31,6 @@ public class DepartmentDao {
     }
 
     /**
-     *
      * @param department
      */
     public void deleteDepartment(Department department) {
@@ -40,7 +38,6 @@ public class DepartmentDao {
     }
 
     /**
-     *
      * @return a list of departments
      */
     public List<Department> getAllDepartments() {
@@ -48,7 +45,6 @@ public class DepartmentDao {
     }
 
     /**
-     *
      * @param id
      * @return department object
      */
@@ -56,4 +52,7 @@ public class DepartmentDao {
         return entityManager.findById(Department.class, id);
     }
 
+    public List<Department> getDepartmentsByLocationId(Integer id) {
+        return entityManager.findAllByforeignId(Department.class, Location.class,id);
+    }
 }
