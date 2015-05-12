@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Demo HR</title>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+<h1>HR Employees List Page</h1>
+
+<div class="panel panel-default">
+    <div class="panel-heading description">
+        Employees list
+    </div>
+    <div class="panel-body">
+        <div>
+            <p>
+                <button onclick="showList(employeesList)">Show List</button>
+                <button onclick="showSalaryTotal()">Salary total</button>
+                <button onclick="deleteLastEmployee()">Delete last employee</button>
+            </p>
+        </div>
+        <div>
+            <p>
+                Search for: <input type="text" id="searchKey"/>
+            </p>
+
+            <p>
+                <button onclick="search()">Search</button>
+            </p>
+        </div>
+        Order by:
+        <select id="fieldToSort" onchange="showList(currentList)">
+            <option value="firstName">1</option>
+            <option value="lastName">2</option>
+            <option value="phone">3</option>
+            <option value="salary">4</option>
+        </select>
+        <div id="salaryTotal">
+
+        </div>
+        <div id="listcontainer">
+        </div>
+    </div>
+</div>
+<div>
+    <a href="index.html">Back to Home Page</a>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading description">
+        Add employee
+    </div>
+</div>
+<div class="panel-body">
+    <p>
+        First Name: <input type="text" id="firstName"/>
+    </p>
+
+    <p>
+        Last Name: <input type="text" id="lastName"/>
+    </p>
+
+    <p>
+        Phone: <input type="text" id="phone"/>
+    </p>
+
+    <p>
+        Salary: <input type="number" id="salary"/>
+    </p>
+
+    <p>
+        <button onclick="addEmployee(); showList(employeesList);">Add employee</button>
+    </p>
+</div>
+</body>
+<script type="text/javascript" src="scripts/app.js"></script>
+</html>
