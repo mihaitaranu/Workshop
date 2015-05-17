@@ -1,0 +1,32 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2 class="panel-title">View department  <b>{{department.departmentName}}</b></h2>
+    </div>
+    <div class="panel-body">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="departmentName">Department Name:</label>
+                        <span id="departmentName" class="form-control">{{department.departmentName}}</span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="locationId">Location City:</label>
+                        <span id="locationId" class="form-control">{{department.locationId.city}}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-7">
+                    <div class="container">
+                        <button class="btn btn-default" ng-click="back()">Back</button>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>

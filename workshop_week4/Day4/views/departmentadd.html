@@ -1,0 +1,42 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2 class="panel-title">Add new department</h2>
+    </div>
+    <div class="panel-body">
+        <ng-form name="departmentEditForm">
+            <!--TODO#HR7-->
+            <div class="row">
+                <div class="col-lg-6">
+                    <!--TODO#HR3-->
+                    <div class="form-group" ng-class="{ 'has-error': departmentEditForm.departmentName.$invalid }">
+                        <!--TODO#HR2-->
+                        <label for="departmentName">Department Name</label>
+                        <input type="text" class="form-control" id="departmentName" name="departmentName" ng-model="department.departmentName" required>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!--TODO#HR3-->
+                    <div class="form-group" ng-class="{ 'has-error': departmentEditForm.department.$invalid }">
+                        <!--TODO#HR2-->
+                        <label for="location">Location City</label>
+                        <select id="location" ng-model="department.locationId" name="location" class="form-control" required
+                                ng-options="location.city for location in locations track by location.locationId">
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-7">
+                    <div class="container">
+                        <a class="btn btn-lg btn-primary" ng-click="create(department)" ng-disabled="departmentEditForm.$invalid">Save</a>
+                        <a class="btn btn-lg btn-primary" ng-click="resetForm()">Reset</a>
+                        <!--TODO#HR4-->
+                    </div>
+                </div>
+            </div>
+        </ng-form>
+    </div>
+</div>
